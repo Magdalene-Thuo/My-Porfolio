@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -26,11 +26,11 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-heading font-bold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="GitHub">
-                <Github size={24} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
+              <a href="https://linkedin.com/in/magdalene-thuo" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
                 <Linkedin size={24} />
+              </a>
+              <a href="https://youtube.com/@TechGirl254" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="YouTube">
+                <Youtube size={24} />
               </a>
               <a href="mailto:example@example.com" className="text-gray-400 hover:text-white transition-colors" aria-label="Email">
                 <Mail size={24} />
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Portfolio. All rights reserved.</p>
+          <p>Transforming skills into opportunities.</p>
         </div>
       </div>
     </footer>

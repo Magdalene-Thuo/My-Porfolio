@@ -8,7 +8,6 @@ const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: '',
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -35,7 +34,6 @@ const ContactForm: React.FC = () => {
       setFormData({
         name: '',
         email: '',
-        subject: '',
         message: ''
       });
       
@@ -79,21 +77,6 @@ const ContactForm: React.FC = () => {
         </div>
       </div>
       
-      <div>
-        <label htmlFor="subject" className="block text-sm font-medium text-portfolio-text mb-1">
-          Subject
-        </label>
-        <input
-          type="text"
-          id="subject"
-          name="subject"
-          value={formData.subject}
-          onChange={handleChange}
-          required
-          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-portfolio-accent focus:border-transparent outline-none transition"
-          placeholder="Project Inquiry"
-        />
-      </div>
       
       <div>
         <label htmlFor="message" className="block text-sm font-medium text-portfolio-text mb-1">

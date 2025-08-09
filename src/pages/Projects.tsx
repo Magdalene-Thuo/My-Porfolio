@@ -3,65 +3,124 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ProjectCard from '@/components/ProjectCard';
+import { Helmet } from 'react-helmet-async';
 
 const ProjectsPage: React.FC = () => {
+  const origin = typeof window !== 'undefined' ? window.location.origin : '';
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A full-featured e-commerce platform built with React, Node.js and MongoDB. Features include product catalog, shopping cart, user authentication, payment processing, and order management.",
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop",
-      tags: ["React", "Node.js", "MongoDB", "Express", "Redux"],
-      liveUrl: "https://example.com",
-      repoUrl: "https://github.com",
-      featured: true
+      title: 'Virtual Assistance Training Program',
+      description: 'Comprehensive training on email/calendar management, client communication, and online work platforms.',
+      image: '/placeholder.svg',
+      role: 'Lead Trainer & Curriculum Designer',
+      tools: ['Google Workspace', 'Zoom', 'Trello'],
+      result: '90% of participants felt confident to start VA careers.',
+      featured: true,
     },
     {
-      title: "Task Management App",
-      description: "A productivity application for managing personal and team tasks. Built with React and Firebase, featuring real-time updates, task assignment, due dates, and progress tracking.",
-      image: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?q=80&w=2000&auto=format&fit=crop",
-      tags: ["React", "Firebase", "Tailwind CSS"],
-      liveUrl: "https://example.com",
-      repoUrl: "https://github.com"
+      title: 'Graphic Design with Canva (3-Day Beginner Course)',
+      description: 'Practical sessions teaching design principles and hands-on use of Canva tools.',
+      image: '/placeholder.svg',
+      role: 'Facilitator & Designer',
+      tools: ['Canva', 'Google Slides'],
+      result: '40+ trainees created their first design portfolio.',
     },
     {
-      title: "Personal Finance Dashboard",
-      description: "An application to help users track expenses, create budgets and visualize spending patterns. Built with Vue.js and Chart.js.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000&auto=format&fit=crop",
-      tags: ["Vue.js", "Chart.js", "Node.js", "PostgreSQL"],
-      liveUrl: "https://example.com",
-      repoUrl: "https://github.com"
+      title: 'Excel Beginner-to-Advanced Course',
+      description: 'Full curriculum with downloadable resources and video tutorials covering core to advanced Excel.',
+      image: '/placeholder.svg',
+      role: 'Trainer & Content Creator',
+      tools: ['Excel', 'Loom'],
+      result: 'Improved participants’ productivity and employability.',
     },
     {
-      title: "Weather Application",
-      description: "A weather forecast application that provides current and 5-day forecast data based on user's location or search query. Uses OpenWeatherMap API.",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2000&auto=format&fit=crop",
-      tags: ["HTML5", "CSS3", "JavaScript", "REST API"],
-      liveUrl: "https://example.com",
-      repoUrl: "https://github.com"
+      title: 'Digital Marketing Sessions',
+      description: 'Training delivered at Sivana College, Vera Beauty College, and PWD-focused groups.',
+      image: '/placeholder.svg',
+      role: 'Trainer',
+      tools: ['Canva', 'Facebook Ads', 'Instagram', 'Google Workspace'],
+      result: 'Students applied skills to promote personal brands and businesses.',
     },
     {
-      title: "Recipe Finder",
-      description: "A web application that helps users find recipes based on available ingredients. Features include filtering by dietary restrictions and cuisine type.",
-      image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2000&auto=format&fit=crop",
-      tags: ["React", "TypeScript", "CSS Modules"],
-      liveUrl: "https://example.com",
-      repoUrl: "https://github.com"
-    }
+      title: 'Web Development Intro',
+      description: 'Basic HTML/CSS and website creation for UON, TUK, and CUEA students.',
+      image: '/placeholder.svg',
+      role: 'Trainer',
+      tools: ['VS Code', 'GitHub Pages'],
+    },
+    {
+      title: 'Fiverr Success Cheat Sheet',
+      description: 'Step-by-step guide to creating competitive gigs and winning first orders.',
+      image: '/placeholder.svg',
+      role: 'Author & Coach',
+      tools: ['Canva', 'Google Docs'],
+      result: 'Helped multiple freelancers secure first orders.',
+    },
+    {
+      title: 'AI in Graphic Design Presentation',
+      description: 'Training on AI tools for design, including practical prompt examples.',
+      image: '/placeholder.svg',
+      role: 'Speaker & Trainer',
+      tools: ['MidJourney', 'Canva'],
+    },
+    {
+      title: 'Digital Product Templates',
+      description: 'Designed Canva templates for planners, workbooks, and marketing kits.',
+      image: '/placeholder.svg',
+      role: 'Designer',
+      tools: ['Canva'],
+    },
+    {
+      title: 'Ajira Club Induction & Activations',
+      description: 'Event planning, mobilization, and execution for new club member activation.',
+      image: '/placeholder.svg',
+      role: 'Lead Organizer',
+      tools: ['Canva', 'Google Forms'],
+      result: '100+ new sign-ups.',
+    },
+    {
+      title: 'Women-Only Training Initiative',
+      description: 'Empowering girls from marginalized communities with digital skills.',
+      image: '/placeholder.svg',
+      role: 'Program Lead',
+      tools: ['Canva', 'Google Workspace'],
+      result: 'Increased online work opportunities for participants.',
+    },
+    {
+      title: 'Karura Nature Walk Event',
+      description: 'Coordinated logistics, branding, and engagement activities.',
+      image: '/placeholder.svg',
+      role: 'Coordinator',
+      tools: ['Canva'],
+    },
+    {
+      title: 'Impact Stories Compilation',
+      description: 'Documented participant success stories showing real earnings from online work.',
+      image: '/placeholder.svg',
+      role: 'Researcher & Editor',
+      tools: ['Google Docs', 'Canva'],
+      result: '7+ verified success stories compiled.',
+    },
   ];
 
   return (
     <>
+      <Helmet>
+        <title>Projects | Magdalene Thuo Portfolio</title>
+        <meta name="description" content="Training programs, workshops, and digital products delivered by Magdalene Thuo." />
+        <link rel="canonical" href={`${origin}/projects`} />
+      </Helmet>
       <Navbar />
       
       <section className="pt-32 pb-20">
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-portfolio-dark mb-6">
-              My Projects
+              Project Portfolio
             </h1>
             <div className="h-1 w-24 bg-portfolio-accent mx-auto mb-6"></div>
             <p className="text-lg text-portfolio-text/80">
-              A collection of my recent work spanning web development, design, and more.
+              A curated selection of trainings, programs, and initiatives with measurable outcomes.
             </p>
           </div>
           
@@ -72,9 +131,9 @@ const ProjectsPage: React.FC = () => {
                 title={project.title}
                 description={project.description}
                 image={project.image}
-                tags={project.tags}
-                liveUrl={project.liveUrl}
-                repoUrl={project.repoUrl}
+                role={project.role}
+                tools={project.tools}
+                result={project.result}
                 featured={project.featured}
               />
             ))}

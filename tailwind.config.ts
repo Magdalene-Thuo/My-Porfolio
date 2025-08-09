@@ -66,7 +66,8 @@ export default {
         portfolio: {
           dark: '#0f172a',
           light: '#f1f5f9',
-          accent: '#0d9488',
+          accent: '#1e3a8a',
+          gold: '#d4af37',
           text: '#1e293b',
           'text-light': '#f8fafc'
         }
