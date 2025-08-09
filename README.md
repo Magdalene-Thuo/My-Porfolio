@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# Magdalene Thuo – Portfolio Website
+This repository contains the source code and content for my personal portfolio website. The site showcases my skills, major projects, and professional journey as a Digital Trainer, Career Coach, and Digital Marketing/Data Analysis Specialist.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/a570e483-cd77-4b7e-bfba-435ead34549e
+**URL**: https://magdalenethuoportfolio.lovable.app/
 
-## How can I edit this code?
+🌟 About Me
+I am a certified trainer and coach helping individuals and businesses thrive in the digital economy. My expertise includes:
 
-There are several ways of editing your application.
+Digital Marketing Strategy & Training
 
-**Use Lovable**
+Data Entry & Analysis (Excel, Google Sheets)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a570e483-cd77-4b7e-bfba-435ead34549e) and start prompting.
+Graphic Design with Canva
 
-Changes made via Lovable will be committed automatically to this repo.
+Virtual Assistance & Administrative Support
 
-**Use your preferred IDE**
+Web Development Basics Training
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Content Creation & Social Media Strategy
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Freelance Career Coaching (Fiverr, Upwork, U-Test, etc.)
 
-Follow these steps:
+📂 Projects Featured
+The portfolio highlights real-world work including:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Virtual Assistance Training Program – Comprehensive training on VA skills and tools.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Graphic Design with Canva (3-Day Beginner Course) – Hands-on training for aspiring designers.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Excel Beginner-to-Advanced Course – Complete learning path for Excel users.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Digital Marketing Sessions – Trainings at Sivana College, Vera Beauty College, and PWD-focused groups.
 
-**Edit a file directly in GitHub**
+Web Development Intro – Basic HTML/CSS workshops for students.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Fiverr Success Cheat Sheet – Freelance gig creation guide.
 
-**Use GitHub Codespaces**
+AI in Graphic Design Presentation – Exploring AI tools for creative work.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Digital Product Templates – Planners, workbooks, and marketing kits.
 
-## What technologies are used for this project?
+Ajira Club Induction & Activations – Event planning and onboarding.
 
-This project is built with:
+Women-Only Training Initiative – Empowering marginalized girls with digital skills.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Karura Nature Walk Event – Event coordination and engagement.
 
-## How can I deploy this project?
+Impact Stories Compilation – Documented participant success stories.
 
-Simply open [Lovable](https://lovable.dev/projects/a570e483-cd77-4b7e-bfba-435ead34549e) and click on Share -> Publish.
+🛠️ Tools & Technologies
+Frontend: HTML, CSS, JavaScript (framework may vary)
 
-## Can I connect a custom domain to my Lovable project?
+Design: Canva, Figma
 
-Yes it is!
+Productivity: Google Workspace, Trello, Zoom
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Content Creation: Loom, CapCut
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Data Tools: Excel, Google Sheets
+
+🚀 Live Demo
+Portfolio Website – Add your live link here
+
+📬 Contact
+Email:mthuo92@gmail.com
+
+LinkedIn:https://www.linkedin.com/in/magdalene-thuo/
+
+YouTube: TechGirl254
+
