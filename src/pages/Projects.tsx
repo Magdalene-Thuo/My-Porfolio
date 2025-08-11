@@ -11,7 +11,7 @@ const ProjectsPage: React.FC = () => {
     {
       title: 'Virtual Assistance Training Program',
       description: 'Comprehensive training on email/calendar management, client communication, and online work platforms.',
-      image: '/lovable-uploads/e9215500-1216-4d2f-9766-c0d8213e66e9.png',
+      image: '/lovable-uploads/45ad4e95-476b-4644-b582-d92c7c6f38c8.png',
       role: 'Lead Trainer & Curriculum Designer',
       tools: ['Google Workspace', 'Zoom', 'Trello'],
       result: '90% of participants felt confident to start VA careers.',
@@ -67,11 +67,29 @@ const ProjectsPage: React.FC = () => {
     },
     {
       title: 'Impact Stories Compilation',
-      description: 'Documented participant success stories showing real earnings from online work.',
-      image: '/placeholder.svg',
+      description: '100+ success stories across AI for Software Engineering, Digital Marketing, and Data Analysis trainings.',
+      image: '/lovable-uploads/impact-stories-generic.jpg',
       role: 'Researcher & Editor',
       tools: ['Google Docs', 'Canva'],
-      result: '7+ verified success stories compiled.',
+      result: '100+ verified outcomes over the years.',
+      liveUrl: 'https://youtu.be/ZoE5NXyzm_s?si=0RcLOVsaK2jaxFTr',
+    },
+    {
+      title: 'Impact Stories: AI for Software Engineering',
+      description: 'Learners built chatbots and prototypes using Python, HTML, and CSS — reflecting ongoing self-learning beyond formal trainings.',
+      image: '/lovable-uploads/impact-ai-se.jpg',
+      role: 'Trainer & Mentor',
+      tools: ['Python', 'HTML', 'CSS'],
+      result: 'Dozens launched automation projects and prototypes.',
+      liveUrl: 'https://youtu.be/ZoE5NXyzm_s?si=0RcLOVsaK2jaxFTr',
+    },
+    {
+      title: 'Impact Stories: Data Analysis',
+      description: 'Participants applied Excel, Python, and Power BI to real datasets — part of my continuous learning outside training.',
+      image: '/lovable-uploads/impact-data-analysis.jpg',
+      role: 'Trainer & Mentor',
+      tools: ['Excel', 'Python', 'Power BI'],
+      result: 'Hundreds improved productivity and employability.',
     },
   ];
 
