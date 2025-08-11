@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -31,7 +30,7 @@ const ProjectsPage: React.FC = () => {
       image: '/lovable-uploads/40be38d1-54ee-4468-98fc-eb04456c33b6.png',
       role: 'Trainer & Content Creator',
       tools: ['Excel', 'Python', 'Power BI'],
-      result: 'Improved participants’ productivity and employability.',
+      result: 'Improved participants\' productivity and employability.',
     },
     {
       title: 'Digital Marketing Training Programs',
@@ -64,32 +63,6 @@ const ProjectsPage: React.FC = () => {
       role: 'Program Lead',
       tools: ['Canva', 'Google Workspace'],
       result: 'Increased online work opportunities for participants.',
-    },
-    {
-      title: 'Impact Stories Compilation',
-      description: '100+ success stories across AI for Software Engineering, Digital Marketing, and Data Analysis trainings.',
-      image: '/lovable-uploads/impact-stories-generic.jpg',
-      role: 'Researcher & Editor',
-      tools: ['Google Docs', 'Canva'],
-      result: '100+ verified outcomes over the years.',
-      liveUrl: 'https://youtu.be/ZoE5NXyzm_s?si=0RcLOVsaK2jaxFTr',
-    },
-    {
-      title: 'Impact Stories: AI for Software Engineering',
-      description: 'Learners built chatbots and prototypes using Python, HTML, and CSS — reflecting ongoing self-learning beyond formal trainings.',
-      image: '/lovable-uploads/impact-ai-se.jpg',
-      role: 'Trainer & Mentor',
-      tools: ['Python', 'HTML', 'CSS'],
-      result: 'Dozens launched automation projects and prototypes.',
-      liveUrl: 'https://youtu.be/ZoE5NXyzm_s?si=0RcLOVsaK2jaxFTr',
-    },
-    {
-      title: 'Impact Stories: Data Analysis',
-      description: 'Participants applied Excel, Python, and Power BI to real datasets — part of my continuous learning outside training.',
-      image: '/lovable-uploads/impact-data-analysis.jpg',
-      role: 'Trainer & Mentor',
-      tools: ['Excel', 'Python', 'Power BI'],
-      result: 'Hundreds improved productivity and employability.',
     },
   ];
 

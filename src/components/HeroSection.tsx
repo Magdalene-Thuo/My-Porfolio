@@ -10,7 +10,7 @@ const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
           <div className="lg:col-span-3 space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-portfolio-dark">
-              <span className="block">Magdalene Thuo</span>
+              <span className="block mb-4">Magdalene Thuo</span>
               <span className="text-portfolio-accent flex items-center gap-2 text-xl md:text-2xl lg:text-3xl font-heading">
                 Lead Digital Trainer • Career Coach • Digital Marketing & Data Analysis Specialist
                 <BadgeCheck size={24} className="text-portfolio-gold" />
