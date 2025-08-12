@@ -5,6 +5,8 @@ import AboutSection from '@/components/AboutSection';
 import SkillsSection from '@/components/SkillsSection';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
+import FeaturedProjects from '@/components/FeaturedProjects';
+import StatsStrip from '@/components/StatsStrip';
 import { Helmet } from 'react-helmet-async';
 
 const Home: React.FC = () => {
@@ -32,6 +34,8 @@ const Home: React.FC = () => {
       </Helmet>
       <Navbar />
       <HeroSection />
+      <StatsStrip />
+      <FeaturedProjects />
       <AboutSection />
       <SkillsSection />
       <Footer />
