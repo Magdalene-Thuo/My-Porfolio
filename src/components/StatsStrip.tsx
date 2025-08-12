@@ -1,10 +1,10 @@
 import React from 'react';
 
 const stats = [
-  { label: 'Years Training', value: '7+' },
-  { label: 'People Trained', value: '2,000+' },
-  { label: 'Programs Delivered', value: '50+' },
-  { label: 'Success Stories', value: '100+' },
+  { label: 'Years Training', value: '6+' },
+  { label: 'People Trained', value: '5,000+' },
+  { label: 'Training Sessions', value: '200+' },
+  { label: 'Success Stories', value: '200+' },
 ];
 
 const StatsStrip: React.FC = () => {

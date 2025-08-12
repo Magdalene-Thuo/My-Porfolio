@@ -64,11 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
         portfolio: {
-          dark: '#0f172a',
-          light: '#f1f5f9',
-          accent: '#1e3a8a',
-          gold: '#d4af37',
-          text: '#1e293b',
+          dark: '#0b1220',
+          light: '#eef7f6',
+          accent: '#0ea5a7',
+          gold: '#f59e0b',
+          text: '#0f172a',
           'text-light': '#f8fafc'
         }
 			},

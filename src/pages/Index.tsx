@@ -1,11 +1,11 @@
 
 import React from 'react';
 import HeroSection from '@/components/HeroSection';
-import AboutSection from '@/components/AboutSection';
+
 import SkillsSection from '@/components/SkillsSection';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import FeaturedProjects from '@/components/FeaturedProjects';
+
 import StatsStrip from '@/components/StatsStrip';
 import { Helmet } from 'react-helmet-async';
 
@@ -35,8 +35,8 @@ const Home: React.FC = () => {
       <Navbar />
       <HeroSection />
       <StatsStrip />
-      <FeaturedProjects />
-      <AboutSection />
+      
+      
       <SkillsSection />
       <Footer />
     </>
