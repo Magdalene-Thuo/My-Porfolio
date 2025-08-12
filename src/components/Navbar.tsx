@@ -40,10 +40,10 @@ const Navbar: React.FC = () => {
   }, [location.pathname]);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'py-3 bg-white shadow-md' : 'py-5 bg-transparent'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'py-3 bg-card shadow-md border-b' : 'py-5 bg-transparent'}`}>
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-portfolio-dark font-heading font-bold text-2xl">
+          <Link to="/" className="text-foreground font-heading font-bold text-2xl">
             Portfolio
           </Link>
 
@@ -62,8 +62,8 @@ const Navbar: React.FC = () => {
           </ul>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-portfolio-dark"
+      <button
+            className="md:hidden text-foreground"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
