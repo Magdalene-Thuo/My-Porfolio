@@ -63,6 +63,7 @@ const ProjectsPage: React.FC = () => {
       role: 'Program Lead',
       tools: ['Canva', 'Google Workspace'],
       result: 'Increased online work opportunities for participants.',
+      liveUrl: 'https://youtu.be/ZoE5NXyzm_s',
     },
   ];
 
