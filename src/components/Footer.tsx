@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-heading font-bold mb-4">Portfolio</h3>
             <p className="text-sm text-gray-400 max-w-xs">
-              A showcase of my projects, skills, and professional journey in web development and design.
+              Empowering individuals and communities through digital skills training, data analysis, and AI education.
             </p>
           </div>
           
