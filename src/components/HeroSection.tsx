@@ -8,22 +8,22 @@ const HeroSection: React.FC = () => {
     <section className="min-h-screen gradient-bg flex items-center">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
-          <div className="lg:col-span-3 space-y-6">
+          <div className="lg:col-span-3 space-y-10">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-foreground">
-              <span className="block mb-4">Magdalene Thuo</span>
+              <span className="block mb-8">Magdalene Thuo</span>
               <span className="text-primary flex items-center gap-2 text-xl md:text-2xl lg:text-3xl font-heading">
                 Lead Digital Trainer • Career Coach • Digital Marketing & Data Analysis Specialist
                 <BadgeCheck size={24} className="text-accent" />
               </span>
             </h1>
             
-            <div className="h-1 w-24 bg-primary"></div>
+            <div className="h-1 w-32 bg-primary my-8"></div>
             
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl leading-relaxed">
               I’m a certified digital trainer and career coach specializing in Digital Marketing, Data Analysis, Graphic Design, and Freelance Skills Training. I design and deliver practical, outcomes-driven programs that help individuals and organizations thrive online—and turn skills into real opportunities.
             </p>
             
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-wrap gap-6 pt-8">
               <Link to="/projects" className="btn-primary flex items-center gap-2" aria-label="View my work">
                 View My Work <ArrowRight size={18} />
               </Link>
