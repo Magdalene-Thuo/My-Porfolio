@@ -87,6 +87,19 @@ const ProjectsPage: React.FC = () => {
               A curated selection of trainings, programs, and initiatives with measurable outcomes.
             </p>
           </div>
+
+          {/* Featured YouTube Video */}
+          <div className="max-w-4xl mx-auto mb-16">
+            <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/ZoE5NXyzm_s"
+                title="Featured Training Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project, index) => (

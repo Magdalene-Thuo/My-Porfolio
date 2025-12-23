@@ -38,7 +38,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute inset-0 rounded-full bg-primary/20 transform -translate-x-4 -translate-y-4"></div>
               <div className="absolute inset-0 rounded-full bg-white shadow-lg overflow-hidden border-4 border-white">
                 <img 
-                  src="/lovable-uploads/e98b4e07-c211-439b-a247-9390ff6c0726.png" 
+                  src="/lovable-uploads/magdalene-speaking.jpeg" 
                   alt="Portrait of Magdalene Thuo, Lead Digital Trainer and Career Coach" 
                   className="w-full h-full object-cover"
                 />
