@@ -93,10 +93,12 @@ const ProjectsPage: React.FC = () => {
             <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/ZoE5NXyzm_s"
+                src="https://www.youtube-nocookie.com/embed/ZoE5NXyzm_s?rel=0"
                 title="Featured Training Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
+                referrerPolicy="strict-origin-when-cross-origin"
               ></iframe>
             </div>
           </div>
