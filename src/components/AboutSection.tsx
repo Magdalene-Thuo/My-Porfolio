@@ -27,7 +27,7 @@ const AboutSection: React.FC = () => {
               <div className="absolute inset-0 rounded-full bg-primary/20 transform -translate-x-4 -translate-y-4"></div>
               <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-card shadow-lg">
                 <img
-                  src={profileImg.url}
+                  src="/lovable-uploads/magdalene-profile.jpg"
                   alt="Magdalene Wangu Thuo, Digital Trainer and Learning Development professional"
                   className="w-full h-full object-cover"
                 />
