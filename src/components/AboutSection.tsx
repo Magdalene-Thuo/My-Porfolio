@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
-import profileImg from '@/assets/magdalene-profile.jpg.asset.json';
 
 const focusAreas = [
   "Digital Skills Training", "AI Literacy", "Digital Marketing",

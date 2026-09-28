@@ -2,7 +2,6 @@
 import React from 'react';
 import { ArrowRight, BadgeCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import profileImg from '@/assets/magdalene-profile.jpg.asset.json';
 
 
 const HeroSection: React.FC = () => {
