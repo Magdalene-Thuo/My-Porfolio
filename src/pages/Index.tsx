@@ -36,8 +36,8 @@ const Home: React.FC = () => {
       <Navbar />
       <HeroSection />
       <StatsStrip />
-      
-      
+      <AboutSection />
+
       <SkillsSection />
       <Footer />
     </>
