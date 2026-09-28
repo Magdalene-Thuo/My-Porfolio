@@ -2,87 +2,70 @@
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
 
-const AboutSection: React.FC = () => {
-  const skills = [
-    "Digital Training Facilitation", "Curriculum Development", "Program Coordination",
-    "Youth Mentorship", "Training Needs Assessment", "Workshop and Event Organization",
-    "Technical Support", "Data Entry and Analysis", "Content Writing",
-    "Google Workspace", "Business Coaching", "Virtual Assistance"
-  ];
+const focusAreas = [
+  "Digital Skills Training", "AI Literacy", "Digital Marketing",
+  "Data Analysis & Reporting", "Virtual Assistance", "Graphic Design",
+  "Online Work & Freelancing", "Workplace Readiness", "Curriculum Development",
+  "Learning & Development", "Program Coordination", "Mentorship"
+];
 
+const AboutSection: React.FC = () => {
   return (
-    <section className="py-20 bg-white" id="about">
+    <section className="py-20 bg-background" id="about">
       <div className="container mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="section-title">About Me</h2>
-          <div className="h-1 w-24 bg-portfolio-accent mx-auto mb-6"></div>
-          <p className="text-lg text-portfolio-text/80">
-            Passionate about empowering professionals through digital skills training
+          <div className="h-1 w-24 bg-accent mx-auto mb-6"></div>
+          <p className="text-lg text-muted-foreground">
+            Helping people turn digital skills into real opportunities
           </p>
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          <div>
-            <p className="text-portfolio-text mb-6">
-              Passionate and dedicated Digital Trainer with extensive experience in empowering the youth through the Ajira Digital Program. As the Lead Ajira Digital Trainer, I have been instrumental in developing and implementing effective training programs that bridge the digital skills gap and create opportunities for young people to thrive in the digital economy.
-            </p>
-            <p className="text-portfolio-text mb-6">
-              My expertise lies in curriculum development, training facilitation, mentorship, and program coordination, ensuring that every training session is impactful and aligns with the needs of our participants.
-            </p>
-            <p className="text-portfolio-text">
-              I am always eager to connect with like-minded professionals and explore opportunities to drive digital literacy and economic empowerment. Let's connect and discuss how we can collaborate to make a positive impact in the digital training landscape.
-            </p>
+
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+          <div className="lg:col-span-2 flex justify-center lg:justify-start">
+            <div className="relative w-64 h-64 md:w-80 md:h-80">
+              <div className="absolute inset-0 rounded-full bg-primary/20 transform -translate-x-4 -translate-y-4"></div>
+              <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-card shadow-lg">
+                <img
+                  src="/lovable-uploads/magdalene-profile.jpg"
+                  alt="Magdalene Wangu Thuo, Digital Trainer and Learning Development professional"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
-          
-          <div className="space-y-6">
-            <div className="bg-portfolio-light p-6 rounded-lg">
-              <h3 className="font-heading font-bold text-xl mb-4 text-portfolio-dark">Education</h3>
-              <ul className="space-y-4">
-                <li>
-                  <p className="font-medium">Business Information Technology, Information Technology</p>
-                  <p className="text-sm text-portfolio-text/70">The Technical University of Kenya, 2015-2019</p>
-                  <p className="text-sm italic">Grade: Second Class (Upper Division)</p>
-                </li>
-                <li>
-                  <p className="font-medium">AiCE - AI Career Essentials Certificate</p>
-                  <p className="text-sm text-portfolio-text/70">alx_africa, Jul 2024</p>
-                </li>
-                <li>
-                  <p className="font-medium">Virtual Assistance</p>
-                  <p className="text-sm text-portfolio-text/70">alx_africa, Oct 2024</p>
-                </li>
-              </ul>
-            </div>
-            
-            <div className="bg-portfolio-light p-6 rounded-lg">
-              <h3 className="font-heading font-bold text-xl mb-4 text-portfolio-dark">Experience</h3>
-              <ul className="space-y-4">
-                <li>
-                  <p className="font-medium">Lead Digital Trainer - Ajira Digital</p>
-                  <p className="text-sm text-portfolio-text/70">eMobilis Mobile Technology Institute, Apr 2022-Present</p>
-                </li>
-                <li>
-                  <p className="font-medium">Ajira Digital Trainer</p>
-                  <p className="text-sm text-portfolio-text/70">eMobilis Mobile Technology Institute, Apr 2020-Present</p>
-                </li>
-                <li>
-                  <p className="font-medium">Data Entry Clerk</p>
-                  <p className="text-sm text-portfolio-text/70">Fairmont The Norfolk, Jan 2020-Mar 2020</p>
-                </li>
-                <li>
-                  <p className="font-medium">Intern</p>
-                  <p className="text-sm text-portfolio-text/70">ICT Authority, Jul 2019-Dec 2019</p>
-                </li>
-              </ul>
-            </div>
+
+          <div className="lg:col-span-3 space-y-5 text-foreground/90 leading-relaxed">
+            <p>
+              I’m Magdalene Wangu Thuo, a Digital Trainer and Learning Development professional passionate
+              about helping people turn digital skills into real opportunities.
+            </p>
+            <p>
+              With over 5 years of experience in digital skills training, I have trained more than 5,000 young
+              people through virtual and in-person programmes, covering areas such as digital marketing,
+              virtual assistance, data analysis, graphic design, AI literacy, online work, and workplace readiness.
+            </p>
+            <p>
+              I also work with data to improve learning and programme outcomes, from collecting and validating
+              trainee data to developing reports, dashboards, and insights that support better decision-making.
+            </p>
+            <p>
+              My approach to training is practical, inclusive, and learner-centred. I enjoy simplifying complex
+              concepts, creating engaging learning experiences, and helping beginners build the confidence to
+              use technology effectively.
+            </p>
+            <p>
+              I’m particularly interested in the intersection of AI, digital learning, data, and future skills —
+              and how technology can create more accessible pathways to education, employment, and entrepreneurship.
+            </p>
           </div>
         </div>
 
         <div className="mt-12">
-          <h3 className="font-heading font-bold text-xl mb-6 text-center text-portfolio-dark">Key Skills</h3>
+          <h3 className="font-heading font-bold text-xl mb-6 text-center text-foreground">Focus Areas</h3>
           <div className="flex flex-wrap gap-2 justify-center">
-            {skills.map((skill, index) => (
-              <Badge key={index} className="bg-portfolio-accent/20 text-portfolio-dark hover:bg-portfolio-accent/30">{skill}</Badge>
+            {focusAreas.map((skill, index) => (
+              <Badge key={index} className="bg-primary/15 text-primary hover:bg-primary/25">{skill}</Badge>
             ))}
           </div>
         </div>

@@ -3,6 +3,7 @@ import React from 'react';
 import { ArrowRight, BadgeCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+
 const HeroSection: React.FC = () => {
   return (
     <section className="min-h-screen gradient-bg flex items-center pt-24 pb-12">
@@ -38,8 +39,8 @@ const HeroSection: React.FC = () => {
               <div className="absolute inset-0 rounded-full bg-primary/20 transform -translate-x-4 -translate-y-4"></div>
               <div className="absolute inset-0 rounded-full bg-white shadow-lg overflow-hidden border-4 border-white">
                 <img 
-                  src="/lovable-uploads/magdalene-speaking.jpeg" 
-                  alt="Portrait of Magdalene Thuo, Lead Digital Trainer and Career Coach" 
+                  src="/lovable-uploads/magdalene-profile.jpg"
+                  alt="Portrait of Magdalene Thuo, Lead Digital Trainer and Career Coach"
                   className="w-full h-full object-cover"
                 />
               </div>
